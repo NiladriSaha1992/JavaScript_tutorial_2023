@@ -1,8 +1,27 @@
 Rules of declaring variables
------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------
 1) variables should be declared using the keywords "let" and "const", where constants are to be declared using "const" keyword and they are fixed in nature. On the other hand, variables are to be declared using "let" keyword and they are changeable in nature.
 2) Once declared using "let" or "const" keyword, variables cannot be redeclared.
 3) Constants and variables declared using "const" and "let" are block scoped local variables.
 4) Variables declared using "let" are dynamically typed, means we can assign values of as many different data types as possible during the runtime of a program into a variable.
 5) variable names(identifiers) must start with either letter, _, $ etc. . Identifiers cannot start with numbers. identifiers cannot be a javaScript keyword.
 6) Only use "let" when you are sure that value of the variable will be changed later, otherwise always use "const".
+
+Data types
+---------------------------------------------------------------------------------------------------
+Premitive data types -
+1) Number (int, float),
+2) BigInt,
+3) String,
+4) Boolean,
+5) Undefined,
+6) Null,
+7) Symbol
+
+Non-premitive data types -
+1) Object
+
+String Methods
+---------------------------------------------------------------------------------------------------
+1) string.length :-
+    Finds how many characters are there in a string.
