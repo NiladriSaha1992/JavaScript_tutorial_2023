@@ -29,5 +29,8 @@ console.log("has value" && false); // will log false
 console.log("Partner 1" && null && "partner 3"); // will log null
 console.log(false && 0); // will log false
 console.log(29 && 12 && 0 && 10 && 14); //  will log 0
+console.log("Niladri" && "Arnab" && "Sujit" && null && "Manas" && null && "Abhisek");
 
 /* ----- Logical OR ----- */
+console.log(0 || null || 32 || 45 || false || 21);
+console.log(Boolean(undefined) || Boolean(null) || Boolean(32));
