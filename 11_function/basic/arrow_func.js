@@ -1,9 +1,9 @@
 // write a program to select verified email ids
-const verifyEmail = function(eml) {
-  const email = eml.toLowerCase();
+const verifyEmail = function(email) {
+  const eml = email.toLowerCase();
   const pattern = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|.(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
-  if(email.match(pattern)){
-    return email;
+  if(eml.match(pattern)){
+    return eml;
   }
 };
 
