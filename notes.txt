@@ -22,6 +22,16 @@ Non-premitive data types -
 1) Object
 
 String Methods
----------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------
+
 1) string.length :-
     Finds how many characters are there in a string.
+
+DOM Manipulation
+-------------------------------------------------------------------------------------------------
+
+What is DOM?
+    DOM stands for Document Object Model. DOM is a structured representation of an HTML document. In DOM, Document is a global object and all the HTML elements are the child nodes of it. In DOM, HTML elements resides in parent-child combination.
+
+How JavaScript is related to DOM?
+    JavaScript is just a language specification of ECMAScript, there is no direct relationship between JavaScript and DOM. Document object is an integral part of Web APIs that are also written in JavaScript and have access for our JavaScript files. These Web APIs are just like libraries that we can use in our JavaScript files. Through these Web APIs browsers allow us to use different properties and methods of Document object.
